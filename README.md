@@ -27,8 +27,10 @@ These notes summarize what I have learned and implemented on software until now.
   - Docker-compose
 
 - Linux
+  - Basic
   - Ubuntu
   - CentOS
+  - VIM
 
 - Computer-science
   - Network
