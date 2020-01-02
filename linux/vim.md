@@ -3,12 +3,16 @@
 set paste
 ```
 
+<br />
+
 ## Macro
 ```
 recording: q
 set a shortcut (a): qa
 end recording: q
 ```
+
+<br />
 
 ## Movement
 ```

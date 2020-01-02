@@ -5,6 +5,7 @@ Redux is a predictable state container for JavaScript applications. It helps you
 Simply put, Redux is a state management tool. With Redux, the state of your application is kept in a store and each component can access any state that it needs from this store. 
 ```
 
+<br />
 
 ## Actions
 Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using `store.dispatch()`.
@@ -29,6 +30,8 @@ function addTodo(text) {
 }
 ```
 
+<br />
+
 
 ## Reducers
 Reducers specify how the application's state changes in response to actions sent to the store. Remember that actions only describe what happened, but don't describe how the application's state changes. Remember that actions only describe what happened, but don't describe how the application's state changes.
@@ -47,6 +50,7 @@ function todoApp(state = initialState, action) {
 
 - Redux doesn't mutate the state
 
+<br />
 
 ## Store
 The Store is the object that brings actions and reducers together. The store has the following responsibilities:
@@ -64,6 +68,7 @@ const store = createStore(todoApp)
 
 There is only a signle store in a Redux application.
 
+<br />
 
 ## Reference
 ```

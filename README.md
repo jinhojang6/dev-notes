@@ -7,36 +7,30 @@ These notes summarize what I have learned and implemented on software until now.
   - CSS
   - Javascript
   - React
-  - Vue
+  - Redux
 
 - Back-end
-  - Node
   - Nginx
-  - PostgreSQL
-  
-- Web
   - Django
-  - REST API
+  - NodeJS
+  
+- Databases
+  - PostgresSQL
 
 - Artificial Intelligence
   - Tensorflow
   - Pytorch
 
-- Docker
+- General
   - Docker
-  - Docker-compose
+  - GIT
+  - Computer Science
 
 - Linux
   - Basic
   - Ubuntu
   - CentOS
   - VIM
-
-- Computer-science
-  - Network
-  - Database
-  
-- Git
 
 <br />
 
