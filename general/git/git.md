@@ -1,4 +1,4 @@
-# Gitignore
+## Gitignore
 
 After creating a repository, it is recommended to add .gitignore to tell Git which files to ignore.
 
@@ -7,6 +7,7 @@ touch .gitignore
 
 # install vim (ref: http://macappstore.org/vim/ on Mac)
 vi .gitignore
+
 
 # edit .gitignore (ref: https://github.com/jinhojang6/jinho-notes/blob/master/.gitignore)
 ```
@@ -18,3 +19,12 @@ vi .gitignore
 - Executable files(e.g., .exe) should be ignored as well for the same reason.
 
 - Github Help : https://help.github.com/en/articles/ignoring-files
+
+<br/>
+
+
+## Ammend commit
+To gpg sign old commits
+```
+git commit --amend --no-edit -S
+```
