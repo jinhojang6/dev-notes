@@ -24,7 +24,21 @@ vi .gitignore
 
 
 ## Ammend commit
-To gpg sign old commits
+Git checkout remote branch lets us switch to (and work on) a remote branch, just like we’d switch to a local one.
 ```
 git commit --amend --no-edit -S
+```
+
+<br/>
+
+## Check out a remote branch 
+To gpg sign old commits
+```
+git fetch origin
+git checkout -b branchxyz origin/branchxyz
+
+or 
+git branch branchxyz origin/branchxyz
+
+reference: https://dzone.com/articles/what-is-git-checkout-remote-branch-how-it-works-wh
 ```
