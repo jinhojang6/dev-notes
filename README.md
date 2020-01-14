@@ -1,6 +1,6 @@
 # About
 
-These notes summarize what I have learned and implemented on software until now. The topics below cover overarching software development such as:
+These notes summarize what I have learned and implemented developing software programs until now. The topics below cover software development fields such as:
 
 - Front-end
   - HTML
