@@ -23,8 +23,25 @@ vi .gitignore
 <br/>
 
 
+## Add gpg sign to .gitconfig
+```
+[user]
+    email = your@email
+    name = Your Name
+    signingkey = YOUR_GPG_KEY_ID
+[commit]
+    gpgsign = true
+[gpg]
+    program = gpg2
+[alias]
+    c  = commit --verbose --no-verify --gpg-sign 
+    am = commit --verbose --no-verify --gpg-sign --amend
+```
+reference: https://help.github.com/en/github/authenticating-to-github/signing-commits
+
+
 ## Ammend commit
-To gpg sign old commits
+To gpg sign an old commit
 
 ```
 git commit --amend --no-edit -S
