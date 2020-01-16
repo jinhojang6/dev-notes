@@ -1,3 +1,12 @@
+## Configuration
+```
+git config --global user.name "name"
+git config --global user.email "email"
+git config --global user.signingkey 3AA5C34371567BD2
+```
+
+
+
 ## Gitignore
 
 After creating a repository, it is recommended to add .gitignore to tell Git which files to ignore.
