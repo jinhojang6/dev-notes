@@ -31,12 +31,13 @@ https://www.cyberciti.biz/faq/howto-find-a-directory-linux-command/
 
 ## Check PID by port
 ```
-sudo ss -lptn 'sport = :80'
+sudo ss -lptn 'sport = :{port}'
+e.g., sudo ss -lptn 'sport = :80'
 ```
 
 <br />
 
 ## Kill process by PID
 ```
-sudo kill-9 [pid]
+sudo kill -9 [pid]
 ```
