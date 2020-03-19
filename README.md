@@ -1,4 +1,4 @@
-# About
+# About dev-notes
 
 These notes summarize what I have learned and implemented developing software programs until now. The topics below cover software development fields such as:
 
