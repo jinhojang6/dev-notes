@@ -56,6 +56,14 @@ To gpg sign an old commit
 git commit --amend --no-edit -S
 ```
 
+Sign specific commits
+```
+Go into interactive rebase mode.
+Add the following line after each commit you want to sign
+
+exec git commit --amend --no-edit -S
+```
+
 <br/>
 
 ## Check out a remote branch 
