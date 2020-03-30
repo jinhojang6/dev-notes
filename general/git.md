@@ -69,3 +69,12 @@ git branch branchxyz origin/branchxyz
 
 reference: https://dzone.com/articles/what-is-git-checkout-remote-branch-how-it-works-wh
 ```
+
+<br/>
+## Git commit --amend for specific commits
+```
+git rebase --interactive commit_hash^
+(each ^ indicates how many commits back you want to edit)
+change the words pick to reword or edit
+git rebase --continue
+```
