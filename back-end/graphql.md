@@ -3,9 +3,10 @@
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
 ```
 # References
-Official homepage: https://graphql.org/
-How to GraphQL: https://www.howtographql.com/
-GraphQL + Apollo + React: https://flaviocopes.com/apollo/
+Official homepage - https://graphql.org/
+How to GraphQL - https://www.howtographql.com/
+GraphQL + Apollo + React - https://flaviocopes.com/apollo/
+Strapi + GraphQL - https://strapi.io/blog/build-a-blog-with-next-react-js-strapi-and-apollo
 ```
 
 <br/>
