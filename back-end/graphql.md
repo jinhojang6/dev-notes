@@ -152,3 +152,25 @@ Query: {
 https://graphql.org/learn/execution/#root-fields-resolvers
 https://www.howtographql.com/basics/3-big-picture/
 ```
+
+<br/>
+
+## Filter
+similar to a where clause
+
+```
+const QUERY = gql`
+query Tasks {
+    tasks(where: { id: [${router.query.id}] }) {
+    id
+    name
+    url
+    description
+    status
+    videos {
+        url
+    }
+    }
+}
+`;
+```
