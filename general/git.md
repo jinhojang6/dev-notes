@@ -5,7 +5,7 @@ git config --global user.email "email"
 git config --global user.signingkey 3AA5C34371567BD2
 ```
 
-
+<br/>
 
 ## Gitignore
 
@@ -31,6 +31,27 @@ vi .gitignore
 
 <br/>
 
+## Check Git configuration
+```
+all: git config --list
+email: git config user.email
+name: git config user.name
+```
+
+<br/>
+
+## Change Git configuration
+```
+# local
+git config credential.username "new_username"
+
+# global
+git config credential.username --global "new_username"
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+
+<br/>
 
 ## Add gpg sign to .gitconfig
 ```
@@ -48,6 +69,7 @@ vi .gitignore
 ```
 reference: https://help.github.com/en/github/authenticating-to-github/signing-commits
 
+<br/>
 
 ## Ammend commit
 To gpg sign an old commit
@@ -79,6 +101,7 @@ reference: https://dzone.com/articles/what-is-git-checkout-remote-branch-how-it-
 ```
 
 <br/>
+
 ## Git commit --amend for specific commits
 ```
 git rebase --interactive commit_hash^
