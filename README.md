@@ -1,45 +1,55 @@
-# About dev-notes
+# dev-notes
+Software development notes based on my hands-on experience
 
-These notes summarize what I have learned and implemented developing software programs until now. The topics below cover software development fields such as:
+<br />
 
-- Front-end
+## Front-end
   - HTML
   - CSS
   - Javascript
   - React
-  - Redux
-
-- Back-end
-  - Nginx
-  - Django
-  - NodeJS
-  
-- Databases
-  - PostgresSQL
-
-- Artificial Intelligence
-  - Tensorflow
-  - Pytorch
-
-- General
-  - Docker
-  - GIT
-  - Computer Science
-
-- Linux
-  - Basic
-  - Ubuntu
-  - CentOS
-  - VIM
+  - React Native
 
 <br />
 
+## Back-end
+  - Nginx
+  - Django
+  - NodeJS
 
-# Content
+<br />
 
-- Each of the topics includes some hands-on experience to implement it and references for further information. Some code could be tweaked or replaced in a way if the code is originated from projects that are not open source.
+## Databases
+  - PostgresSQL
 
+<br />
 
+## Artificial Intelligence
+  - Tensorflow
+
+<br />
+
+## Docker
+  - docker
+  - docker-compose
+
+<br />
+
+## Linux
+  - Basic
+  - Ubuntu
+  - Vim
+
+<br />
+
+## ETC. 
+  - Git
+  - GraphQL
+  - REST
+  - Testing
+  - Typescript
+
+<br />
 <br />
 
 
