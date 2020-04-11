@@ -10,37 +10,24 @@ Software development notes based on my hands-on experience
   - React
   - React Native
 
-<br />
-
 ## Back-end
   - Nginx
   - Django
   - NodeJS
 
-<br />
-
 ## Databases
   - PostgresSQL
 
-<br />
-
 ## Artificial Intelligence
   - Tensorflow
-
-<br />
 
 ## Docker
   - docker
   - docker-compose
 
-<br />
-
 ## Linux
-  - Basic
   - Ubuntu
   - Vim
-
-<br />
 
 ## ETC. 
   - Git
@@ -50,7 +37,6 @@ Software development notes based on my hands-on experience
   - Typescript
 
 <br />
-<br />
 
 
 # Pull Requests & Issues
@@ -58,7 +44,6 @@ Software development notes based on my hands-on experience
 Feel free to submit a pull request to add or correct any content. Creating issues will be always welcome as well.
 
 <br />
-
 
 # Contact
 
