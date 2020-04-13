@@ -1,3 +1,9 @@
+## Poppular Linux commands
+```
+- https://www.ubuntupit.com/best-linux-commands-to-run-in-the-terminal/
+- https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
+```
+
 ## Check OS version
 ```
 cat /etc/os-release
