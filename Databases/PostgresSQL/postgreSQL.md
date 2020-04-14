@@ -22,18 +22,20 @@ reference: https://stackoverflow.com/questions/18664074/getting-error-peer-authe
 
 <br/>
 
+
+
 ## Create a user and database
 ```
-sudo -u postgres psql
-grant all privileges on database johndb to john;
+sudo su - postgres -c "createuser {username}"
+sudo su - postgres -c "createdb {dbname}"
 ```
 
 <br/>
 
 ## Grant privileges
 ```
-sudo su - postgres -c "createuser {username}"
-sudo su - postgres -c "createdb {dbname}"
+sudo -u postgres psql
+grant all privileges on database johndb to john;
 ```
 
 <br/>
