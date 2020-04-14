@@ -35,12 +35,12 @@ sudo su - postgres -c "createdb {dbname}"
 ## Grant privileges
 ```
 sudo -u postgres psql
-grant all privileges on database johndb to john;
+grant all privileges on database {dbname} to {username};
 ```
 
 <br/>
 
-## Changing the password
+## Change the password
 ```
 postgres=# ALTER USER {username} PASSWORD 'myPassword';
 ```
@@ -52,6 +52,8 @@ postgres=# ALTER USER {username} PASSWORD 'myPassword';
 ALTER USER username WITH OPTION1 OPTION2 OPTION3;
 options: CREATEDB, CREATEROLE, CREATEUSER, SUPERUSER, etc.
 ```
+
+<br/>
 
 ## Drop all the tables 
 ```
