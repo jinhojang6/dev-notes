@@ -29,6 +29,9 @@ Software development notes based on my hands-on experience
   - Ubuntu
   - Vim
 
+## AWS
+  - EC2
+
 ## ETC. 
   - Git
   - GraphQL
