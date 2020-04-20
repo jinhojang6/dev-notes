@@ -8,3 +8,27 @@ Amazone Elastic Compute Cloud (Amazone EC2) is a web service that provides secur
 
 ## Replacing a lost key pair
 - https://aws.amazon.com/premiumsupport/knowledge-center/ec2-windows-replace-lost-key-pair/?nc1=h_ls
+
+
+## Prerequisites (AWS Linux)
+```
+# Git
+sudo yum update -y
+sudo yum install git -y
+git version
+
+# Node
+sudo yum install -y gcc-c++ make
+curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
+sudo yum install -y nodejs
+node -v
+npm -v
+
+# Yarn
+sudo npm install yarn -g
+yarn -v
+
+# Python
+sudo yum install python3
+python3 --version
+```
