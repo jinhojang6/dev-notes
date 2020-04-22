@@ -1,7 +1,7 @@
 ## Remove all images
 
 ```
-docker rmi $(docker images -a -q)
+docker rmi --force $(docker images -a -q)
 ```
 
 
