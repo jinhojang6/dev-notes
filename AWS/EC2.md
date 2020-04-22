@@ -64,3 +64,25 @@ docker-compose --version
 sudo su -
 enable root: https://tecadmin.net/how-to-enable-ssh-as-root-on-aws-ubuntu-instance/
 ```
+
+<br/>
+
+## Extending volume
+
+- [Resizing a volume](https://hackernoon.com/tutorial-how-to-extend-aws-ebs-volumes-with-no-downtime-ec7d9e82426e)
+
+- [Extending a Linux file system after resizing a volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html)
+
+```
+df -h
+-------------------------------------------------
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/xvda1       8.0G  1.9G  6.2G  24% /
+/dev/xvdf1       8.0G   45M  8.0G   1% /data
+-------------------------------------------------
+
+sudo growpart /dev/xvda 1
+
+Verify:
+lsblk
+```
