@@ -4,6 +4,8 @@
 - https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
 ```
 
+<br />
+
 ## Check OS version
 ```
 cat /etc/os-release
@@ -46,4 +48,12 @@ e.g., sudo ss -lptn 'sport = :80'
 ## Kill process by PID
 ```
 sudo kill -9 [pid]
+```
+
+<br />
+
+## Delete all files in the current directory
+```
+rm *
+rm -r * (including subdirectories and files inside them)
 ```
