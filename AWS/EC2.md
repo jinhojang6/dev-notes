@@ -45,6 +45,7 @@ sudo apt-get install -y nodejs
 # Yarn
 https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+Run 'curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -' if you get a public key error
 sudo apt update && sudo apt install yarn
 
 # Docker
