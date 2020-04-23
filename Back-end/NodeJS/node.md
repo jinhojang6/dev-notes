@@ -1,3 +1,12 @@
+## Delete the current version and install node 12.x 
+```
+sudo apt-get purge nodejs
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt install nodejs
+```
+
+<br/>
+
 ## Increasing the amount of inotify watchers
 
 You can set a new limit temporary with:
