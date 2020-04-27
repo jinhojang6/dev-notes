@@ -29,6 +29,19 @@ vi .gitignore
 
 - Github Help : https://help.github.com/en/articles/ignoring-files
 
+## Remove cache of .gitignore
+stop tracking a specific file
+```
+git rm --cached filename
+```
+
+Untracking every file in your .gitignore
+```
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+```
+
 <br/>
 
 ## Check Git configuration
