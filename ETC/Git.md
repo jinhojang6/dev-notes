@@ -1,3 +1,8 @@
+## GPG Setup 
+- https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification 
+
+<br/>
+
 ## Configuration
 ```
 git config --global user.name "name"
