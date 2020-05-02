@@ -6,7 +6,6 @@ Software development notes based on my hands-on experience
 ## Front-end
   - HTML
   - CSS
-  - Javascript
   - React
   - React Native
 
@@ -29,8 +28,12 @@ Software development notes based on my hands-on experience
   - Ubuntu
   - Vim
 
-## AWS
-  - EC2
+## Javascript
+  - Basic
+
+## Python
+  - Basic
+  - VENV
 
 ## ETC. 
   - Git
