@@ -34,6 +34,8 @@ vi .gitignore
 
 - Github Help : https://help.github.com/en/articles/ignoring-files
 
+<br/>
+
 ## Remove cache of .gitignore
 stop tracking a specific file
 ```
@@ -127,3 +129,11 @@ git rebase --interactive commit_hash^
 change the words pick to reword or edit
 git rebase --continue
 ```
+
+<br/>
+
+## Case-sensiive filenames
+```
+git config core.ignorecase false
+```
+- https://stackoverflow.com/questions/17683458/how-do-i-commit-case-sensitive-only-filename-changes-in-git
