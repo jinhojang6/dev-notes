@@ -52,6 +52,14 @@ sudo kill -9 [pid]
 
 <br />
 
+## Change password
+```
+sudo passwd {username}
+```
+- https://www.cyberciti.biz/faq/change-a-user-password-in-ubuntu-linux-using-passwd/
+
+<br />
+
 ## Delete all files in the current directory
 ```
 rm *
