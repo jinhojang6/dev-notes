@@ -52,6 +52,27 @@ sudo kill -9 [pid]
 
 <br />
 
+## Recent ssh session logs
+```
+# Successful connection
+w
+last
+
+# Failed connection
+last -f /var/log/btmp
+```
+
+<br />
+
+## Kill or terminate an inactive or idel ssh session
+```
+pstree -p | grep sshd
+kill -9 {pid}
+```
+- https://www.2daygeek.com/kill-terminate-inactive-idle-ssh-session-on-linux/
+
+<br />
+
 ## Change password
 ```
 sudo passwd {username}
