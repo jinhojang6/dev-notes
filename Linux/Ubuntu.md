@@ -59,7 +59,7 @@ w
 last
 
 # Failed connection
-last -f /var/log/btmp
+sudo last -f /var/log/btmp
 ```
 
 <br />
