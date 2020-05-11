@@ -12,6 +12,7 @@ cat /etc/os-release
 lsb_release -a
 hostnamectl
 ```
+
 <br />
 
 ## Find files
