@@ -1,17 +1,3 @@
-## GPG Setup 
-- https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification 
-
-<br/>
-
-## Configuration
-```
-git config --global user.name "name"
-git config --global user.email "email"
-git config --global user.signingkey 3AA5C34371567BD2
-```
-
-<br/>
-
 ## Gitignore
 
 After creating a repository, it is recommended to add .gitignore to tell Git which files to ignore.
@@ -51,47 +37,7 @@ git commit -m ".gitignore is now working"
 
 <br/>
 
-## Check Git configuration
-```
-all: git config --list
-email: git config user.email
-name: git config user.name
-```
-
-<br/>
-
-## Change Git configuration
-```
-# local
-git config credential.username "new_username"
-
-# global
-git config credential.username --global "new_username"
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-```
-
-<br/>
-
-## Add gpg sign to .gitconfig
-```
-[user]
-    email = your@email
-    name = Your Name
-    signingkey = YOUR_GPG_KEY_ID
-[commit]
-    gpgsign = true
-[gpg]
-    program = gpg2
-[alias]
-    c  = commit --verbose --no-verify --gpg-sign 
-    am = commit --verbose --no-verify --gpg-sign --amend
-```
-reference: https://help.github.com/en/github/authenticating-to-github/signing-commits
-
-<br/>
-
-## Ammend commit
+## Ammend a commit
 To gpg sign an old commit
 
 ```
