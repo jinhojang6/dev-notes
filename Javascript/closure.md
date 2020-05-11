@@ -21,9 +21,7 @@ var incleaseBtn = document.getElementById('inclease');
 var count = document.getElementById('count');
 
 var increase = (function () {
-    // 카운트 상태를 유지하기 위한 자유 변수
     var counter = 0;
-    // 클로저를 반환
     return function () {
     return ++counter;
     };
