@@ -34,6 +34,26 @@ sudo apt-get install nginx
 sudo service nginx start
 ```
 
+Install Let's Encrypt
+```
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python-certbot-nginx
+```
+
+Change server name
+```
+sudo vim /etc/nginx/conf.d/default.conf
+# replace "localhost" with your domain (e.g., *.jinho.com)
+```
+
+Run certbot
+``` 
+sudo certbot --authenticator standalone --installer nginx -d *.testworks.co.kr --pre-hook "service nginx stop" --post-hook "service nginx start"
+```
+
 
 - [Reference 1](https://blog.cloudboost.io/setting-up-an-https-sever-with-node-amazon-ec2-nginx-and-lets-encrypt-46f869159469)
 - [Reference 2](https://community.letsencrypt.org/t/type-unauthorized-detail-invalid-response-from/36183)
