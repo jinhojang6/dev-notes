@@ -1,13 +1,17 @@
-## HTTPS
-Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, its predecessor, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
+## Changing the default SSH port
+```
+// backup
+cp  /etc/ssh/sshd_config  /etc/ssh/sshd_config_backup 
+vim /etc/ssh/sshd_config
+// Change 
+#Port 22
+to 
+Port {new SSH port} 
+sudo service sshd restart
+// Test
+ssh username@userIP -p 49160
+```
 
-- https://en.wikipedia.org/wiki/HTTPS
-
-<br />
-
-## Let's Encrypt
-A nonprofit Certificate Authority providing TLS certificates
-
-- https://letsencrypt.org/
+- https://linuxhint.com/change_default_ssh_port/
 
 <br />
