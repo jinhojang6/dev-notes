@@ -13,3 +13,8 @@ Distribution Settings > Invalidation > Create Invalidation > * to clear all cach
 
 ## Hosting a static website
 - https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/?nc1=h_ls
+
+<br/>
+
+## Requiring HTTPS
+- https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-cloudfront-to-s3-origin.html
