@@ -87,3 +87,8 @@ sudo growpart /dev/xvda 1
 Verify:
 lsblk
 ```
+
+<br/>
+
+## Changing instance type
+- https://www.cloudsqueeze.ai/how-to-change-an-aws-ec2-instance-type-a-step-by-step-guide/index.html
