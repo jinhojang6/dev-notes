@@ -87,3 +87,11 @@ sudo passwd {username}
 rm *
 rm -r * (including subdirectories and files inside them)
 ```
+
+<br />
+
+## Run a .sh file
+```
+chmod +x /path/to/yourscript.sh
+/path/to/yourscript.sh
+```
