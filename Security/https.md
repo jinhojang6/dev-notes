@@ -51,7 +51,7 @@ sudo vim /etc/nginx/conf.d/default.conf
 
 Run certbot
 ``` 
-sudo certbot --authenticator standalone --installer nginx -d *.testworks.co.kr --pre-hook "service nginx stop" --post-hook "service nginx start"
+sudo certbot --authenticator standalone --installer nginx -d {domain} --pre-hook "service nginx stop" --post-hook "service nginx start"
 ```
 
 
