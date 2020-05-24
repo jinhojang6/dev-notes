@@ -12,3 +12,6 @@
 ## Docs
 - Official docs: https://nextjs.org/docs
 - Learn: https://nextjs.org/learn/basics/create-nextjs-app
+
+## References
+- [The Next.js Handbook](https://www.freecodecamp.org/news/the-next-js-handbook/)
