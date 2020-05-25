@@ -54,7 +54,23 @@ Run certbot
 sudo certbot --authenticator standalone --installer nginx -d {domain} --pre-hook "service nginx stop" --post-hook "service nginx start"
 ```
 
+- [Setting Up An HTTPS Server With Node, Amazon EC2, NGINX And Let’s Encrypt](https://blog.cloudboost.io/setting-up-an-https-sever-with-node-amazon-ec2-nginx-and-lets-encrypt-46f869159469)
+- [Unauthorized Detail: Invalid response from](https://community.letsencrypt.org/t/type-unauthorized-detail-invalid-response-from/36183)
+- [Certbox: Could not automatically find a matching server block](https://community.letsencrypt.org/t/certbox-could-not-automatically-find-a-matching-server-block/105265)
 
-- [Reference 1](https://blog.cloudboost.io/setting-up-an-https-sever-with-node-amazon-ec2-nginx-and-lets-encrypt-46f869159469)
-- [Reference 2](https://community.letsencrypt.org/t/type-unauthorized-detail-invalid-response-from/36183)
-- [Reference 3](https://community.letsencrypt.org/t/certbox-could-not-automatically-find-a-matching-server-block/105265)
+## Let's Encrypt auto renewal
+Check expiration date
+```
+echo | openssl s_client -connect <you server here>:443 2>/dev/null | openssl x509 -noout -dates
+```
+
+Renew
+```
+./letsencrypt-auto renew
+sudo crontab -e
+```
+
+- [Nginx auto renewal](https://community.letsencrypt.org/t/nginx-auto-renewal/30894)
+- [Install Let's Encrypt to Create SSL Certificates](https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/)
+
+<br />
