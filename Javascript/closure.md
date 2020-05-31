@@ -1,7 +1,12 @@
 ## Closure
 A closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time. To use a closure, define a function inside another function and expose it. Common uses are object data privacy in even handlers and callback functions, or partial applications, currying.
+
+<br/>
+
+## Examples
+
+### Example 1
 ```
-# Example 1
 function makeFunc() {
   var name = 'Mozilla';
   function displayName() {
@@ -14,9 +19,8 @@ var myFunc = makeFunc();
 myFunc();
 ```
 
+### Example 2
 ```
-# Example 2
-
 var incleaseBtn = document.getElementById('inclease');
 var count = document.getElementById('count');
 
@@ -32,7 +36,7 @@ incleaseBtn.onclick = function () {
 };
 ```
 
-## Example
+### Example 3 
 ```
 function makeAdder(a) {
   return function(b) {
