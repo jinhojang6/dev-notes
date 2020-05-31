@@ -31,3 +31,21 @@ incleaseBtn.onclick = function () {
     count.innerHTML = increase();
 };
 ```
+
+## Example
+```
+function makeAdder(a) {
+  return function(b) {
+    return a + b;
+  };
+}
+var add5 = makeAdder(5);
+var add20 = makeAdder(20);
+add5(6); // returns 11
+add20(7); // returns 27
+```
+- A function defined inside another function has access to the outer function's variables. 
+
+-  Whenever JavaScript executes a function, a 'scope' object is created to hold the local variables created within that function. It is initialized with any variables passed in as function parameters.
+
+- Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
