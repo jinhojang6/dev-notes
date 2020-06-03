@@ -67,6 +67,7 @@ GRANT ALL ON SCHEMA public TO public;
 <br/>
 
 ## Backup a database
+
 1. Log in as the postgres user
 ```
 su - postgres
@@ -77,7 +78,7 @@ su - postgres
 pg_dump dbname > dbname.bak
 ```
 
-3.To demonstrate restoring lost data, delete your example database and create an empty database in its place
+3. To demonstrate restoring lost data, delete your example database and create an empty database in its place
 ```
 dropdb dbname
 createdb dbname
@@ -88,4 +89,4 @@ createdb dbname
 psql test < dbname.bak
 ```
 
-- [How to Back Up Your PostgreSQL Database](https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/)
+- Reference: [How to Back Up Your PostgreSQL Database](https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/)
