@@ -69,8 +69,15 @@ There is only a signle store in a Redux application.
 
 <br />
 
+## React-redux
+Official React bindings for Redux
+
+- https://react-redux.js.org/
+
+<br />
+
 ## Reference
-```
-Redux official website: https://redux.js.org/
-Why use Redux? Reasons with clear examples: https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/
-```
+
+- Redux official website: https://redux.js.org/
+
+- Why use Redux? Reasons with clear examples: https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/
