@@ -1,4 +1,4 @@
-# dev-notes
+# Jinho's notes
 Software development notes based on my hands-on experience
 
 <br />
