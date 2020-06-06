@@ -1,4 +1,6 @@
 ## Apollo Client State management
+Apollo Client (>= 2.5) has built-in local state handling capabilities that allow you to store your local data inside the Apollo cache alongside your remote data.
+
 We recommend managing local state in the Apollo cache instead of bringing in another state management library like Redux so the Apollo cache can be a single source of truth.
 
 Managing local data with Apollo Client is very similar to how you've already managed remote data in this tutorial. You'll write a client schema and resolvers for your local data. You'll also learn to query it with GraphQL just by specifying the @client directive.
@@ -33,6 +35,7 @@ ReactDOM.render(
 
 - Reference: [Manage local state](https://www.apollographql.com/docs/tutorial/local-state/#gatsby-focus-wrapper)
 
+<br />
 
 ## Local state management
 
