@@ -20,6 +20,8 @@ Distribution Settings > Invalidation > Create Invalidation > * to clear all cach
 - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-cloudfront-to-s3-origin.html
 
 
+<br/>
+
 ## Access Denied
 - In the Edit Distribution dialog box, in the Default Root Object field, enter the file name of the default root object.
 - https://serverfault.com/questions/581268/amazon-cloudfront-with-s3-access-denied
