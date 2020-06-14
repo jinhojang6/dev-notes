@@ -85,3 +85,12 @@ git config core.ignorecase false
 - https://stackoverflow.com/questions/17683458/how-do-i-commit-case-sensitive-only-filename-changes-in-git
 
 <br/>
+
+## Why does pulling sometimes make me create a commit?
+Simple answer: git pull is just a combination of git fetch and then a plain git merge.
+
+As any merge, if Git finds out fast-forwarding is not possible, a traditional merge is necessary (one more commit with two parents), therefore this process asks for a commit message.
+
+Reference: [Git docs for branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
+- Answer from https://stackoverflow.com/questions/37796805/why-does-pulling-sometimes-make-me-create-a-commit
