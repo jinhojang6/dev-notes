@@ -42,3 +42,20 @@ sudo vim ~/.ssh/id_rsa.pub
 
 - Generating new SSH(https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - Adding a new SSH to Github(https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+<br/>
+
+## Auto-complete for bash
+git autocompletion script
+```
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+```
+edit `~/.bash_profile`
+```
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+```
+
+- Reference: [git auto-complete for *branches* at the command line?
+](https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line)
