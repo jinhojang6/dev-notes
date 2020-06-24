@@ -39,3 +39,12 @@ chmod +x /path/to/yourscript.sh
 ```
 
 <br/>
+
+
+## The number of CPU cores
+```
+cat /proc/cpuinfo | grep processor | wc -l
+```
+
+<br/>
+
