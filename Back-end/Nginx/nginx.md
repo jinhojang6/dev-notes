@@ -23,3 +23,15 @@ server {
 ```
 - Need to restart the NGINX service
 - https://stackoverflow.com/questions/24861311/forwarding-port-80-to-8080-using-nginx
+
+<br/>
+
+## Troubleshooting
+
+1. Address already in use
+```
+nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+nginx: [emerg] bind() to [::]:443 failed (98: Address already in use)
+```
+
+- sudo fuser -k 80/tcp >> sudo service nginx start
