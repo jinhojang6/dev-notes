@@ -37,23 +37,6 @@ git commit -m ".gitignore is now working"
 
 <br/>
 
-## Ammend a commit
-To gpg sign an old commit
-
-```
-git commit --amend --no-edit -S
-```
-
-Sign specific commits
-```
-Go into interactive rebase mode.
-Add the following line after each commit you want to sign
-
-exec git commit --amend --no-edit -S
-```
-
-<br/>
-
 ## Check out a remote branch 
 Git checkout remote branch lets us switch to (and work on) a remote branch, just like we’d switch to a local one.
 ```
@@ -64,16 +47,6 @@ or
 git branch branchxyz origin/branchxyz
 
 reference: https://dzone.com/articles/what-is-git-checkout-remote-branch-how-it-works-wh
-```
-
-<br/>
-
-## Git commit --amend for specific commits
-```
-git rebase --interactive commit_hash^
-(each ^ indicates how many commits back you want to edit)
-change the words pick to reword or edit
-git rebase --continue
 ```
 
 <br/>
