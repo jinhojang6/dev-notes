@@ -48,3 +48,17 @@ cat /proc/cpuinfo | grep processor | wc -l
 
 <br/>
 
+## Check RAM
+```
+free -h
+```
+
+<br/>
+
+## Check storage
+```
+df -h
+```
+
+<br/>
+
