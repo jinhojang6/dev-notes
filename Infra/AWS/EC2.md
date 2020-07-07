@@ -61,6 +61,10 @@ docker --version
 - sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
+# [ERROR] Got permission denied while trying to connect to the Docker daemon socket ~
+sudo usermod -aG docker $USER
+newgrp docker
+
 #root
 sudo su -
 enable root: https://tecadmin.net/how-to-enable-ssh-as-root-on-aws-ubuntu-instance/
