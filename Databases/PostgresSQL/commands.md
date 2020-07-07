@@ -3,6 +3,16 @@
 
 <br/>
 
+## Listing tables
+- \dt
+
+<br/>
+
+## Listing users
+- \du
+
+<br/>
+
 ## Connecting to another database
 - \connect {dbname}
 
@@ -31,3 +41,20 @@ GRANT ALL ON SCHEMA public TO public;
 ```
 
 <br/>
+
+## Disconnect sessions
+You can use pg_terminate_backend() to kill a connection. You have to be superuser to use this function. This works on all operating systems the same.
+```
+SELECT 
+    pg_terminate_backend(pid) 
+FROM 
+    pg_stat_activity 
+WHERE 
+    -- don't kill my own connection!
+    pid <> pg_backend_pid()
+    -- don't kill the connections to other databases
+    AND datname = 'database_name'
+    ;
+```
+
+- https://stackoverflow.com/questions/5108876/kill-a-postgresql-session-connection
