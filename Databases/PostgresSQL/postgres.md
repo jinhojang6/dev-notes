@@ -47,25 +47,6 @@ postgres=# ALTER USER {username} PASSWORD 'myPassword';
 
 <br/>
 
-## Alter existing user's permission
-```
-ALTER USER username WITH OPTION1 OPTION2 OPTION3;
-options: CREATEDB, CREATEROLE, CREATEUSER, SUPERUSER, etc.
-```
-
-<br/>
-
-## Drop all the tables 
-```
-DROP SCHEMA public CASCADE;
-CREATE SCHEMA public;
-
-GRANT ALL ON SCHEMA public TO {postgres_user_name};
-GRANT ALL ON SCHEMA public TO public;
-```
-
-<br/>
-
 ## Backup a database
 
 1. Log in as the postgres user
