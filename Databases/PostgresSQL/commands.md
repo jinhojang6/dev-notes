@@ -18,6 +18,46 @@
 
 <br/>
 
+## Creating a table
+```
+Source: https://www.postgresqltutorial.com/postgresql-create-table/
+
+CREATE TABLE table_name (
+	column_name TYPE column_constraint,
+	table_constraint table_constraint
+) INHERITS existing_table_name;
+```
+Example:
+```
+CREATE TABLE account(
+	user_id serial PRIMARY KEY,
+	username VARCHAR (50) UNIQUE NOT NULL,
+	password VARCHAR (50) NOT NULL,
+	email VARCHAR (355) UNIQUE NOT NULL,
+	created_on TIMESTAMP NOT NULL,
+	last_login TIMESTAMP
+);
+```
+
+<br/>
+
+## Inserting a record
+```
+Source: https://www.postgresqltutorial.com/postgresql-insert/
+
+INSERT INTO table(column1, column2, …)
+VALUES
+	(value1, value2, …);
+```
+Example:
+```
+INSERT INTO link (url, name)
+VALUES
+	('https://www.postgresqltutorial.com','PostgreSQL Tutorial');
+```
+
+<br/>
+
 ## Drop a database
 - DROP DATABASE {dbname}
 
