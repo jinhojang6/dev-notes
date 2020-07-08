@@ -71,7 +71,7 @@ options: CREATEDB, CREATEROLE, CREATEUSER, SUPERUSER, etc.
 
 <br/>
 
-## Drop all the records 
+## Drop all tables
 ```
 DROP SCHEMA public CASCADE;
 CREATE SCHEMA public;
