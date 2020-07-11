@@ -13,4 +13,6 @@ MongoDB is a document database with the scalability and flexibility that you wan
 
 - List all collections: show collections
 
+- List all documents of a collection: db.{collection_name}.find()
+
 - Delete all documents of a collection: db.{collection_name}.remove({})
