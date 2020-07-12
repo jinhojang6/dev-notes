@@ -7,3 +7,5 @@
 - List all documents of a collection: db.{collection_name}.find()
 
 - Delete all documents of a collection: db.{collection_name}.remove({})
+
+- db.collection.findOneAndUpdate(filter, update, options)
