@@ -71,3 +71,40 @@ psql test < dbname.bak
 ```
 
 - Reference: [How to Back Up Your PostgreSQL Database](https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/)
+
+<br/>
+
+## Security
+
+1. HOST_AUTH_METHOD
+
+docker_container_name:
+  container_name: something
+  environment:
+    POSTGRES_USER: {username}
+    POSTGRES_DB: {dbma,e|
+    POSTGRES_HOST_AUTH_METHOD: password
+    
+2. pg_hba.conf
+
+Location:  /var/lib/postgresql/[version]/
+
+```
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+# "local" is for Unix domain socket connections only
+local   all             all                                     trust
+# IPv4 local connections:
+host    all             all             127.0.0.1/32            trust
+# IPv6 local connections:
+host    all             all             ::1/128                 trust
+# Allow replication connections from localhost, by a user with the
+# replication privilege.
+local   replication     all                                     trust
+host    replication     all             127.0.0.1/32            trust
+host    replication     all             ::1/128                 trust
+
+host all all all password
+```
+
+The `host all all all password` line at the end of pg_hba.conf set the authentication for public access. It should be `password`.
