@@ -108,3 +108,13 @@ host all all all password
 ```
 
 The `host all all all password` line at the end of pg_hba.conf set the authentication for public access. It should be `password`.
+
+<br/>
+
+## Encryption For Specific Columns
+
+The [pgcrypto](https://www.postgresql.org/docs/10/pgcrypto.html) module allows certain fields to be stored encrypted. This is useful if only some of the data is sensitive. The client supplies the decryption key and the data is decrypted on the server and then sent to the client.
+
+The decrypted data and the decryption key are present on the server for a brief time while it is being decrypted and communicated between the client and server. This presents a brief moment where the data and keys can be intercepted by someone with complete access to the database server, such as the system administrator.
+
+- [Reference](https://www.postgresql.org/docs/10/encryption-options.html)
