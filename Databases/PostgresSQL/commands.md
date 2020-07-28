@@ -58,6 +58,52 @@ VALUES
 
 <br/>
 
+## Updating a record
+```
+Source: https://www.postgresqltutorial.com/postgresql-update/
+
+UPDATE table_name
+SET column1 = value1,
+    column2 = value2,
+    ...
+WHERE condition;
+```
+Example:
+```
+UPDATE courses
+SET published_date = '2020-08-01' 
+WHERE course_id = 3;
+```
+
+<br/>
+
+## Order by
+```
+Source: https://www.postgresqltutorial.com/postgresql-order-by/
+
+SELECT
+	select_list
+FROM
+	table_name
+ORDER BY
+	sort_expression1 [ASC | DESC],
+        ...
+	sort_expressionN [ASC | DESC];
+```
+Example:
+```
+SELECT
+	first_name,
+	last_name
+FROM
+	customer
+ORDER BY
+	first_name ASC;
+```
+
+
+<br/>
+
 ## Drop a database
 - DROP DATABASE {dbname}
 
