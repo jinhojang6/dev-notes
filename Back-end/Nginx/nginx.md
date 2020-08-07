@@ -52,4 +52,4 @@ Easy Logging and Auditing: Since there is only one single point of access when a
 
 - Encrypted Connection By encrypting the connection between the client and the Nginx reverse Proxy with TLS, users profit from a encrypted and securized HTTPS connection, protecting their data.
 
-- (How to Configure a Nginx HTTPs Reverse Proxy on Ubuntu Bionic)[https://www.scaleway.com/en/docs/how-to-configure-nginx-reverse-proxy/#:~:text=Nginx%20HTTPS%20Reverse%20Proxy%20Overview,response%20back%20to%20the%20client.]
+- [How to Configure a Nginx HTTPs Reverse Proxy on Ubuntu Bionic](https://www.scaleway.com/en/docs/how-to-configure-nginx-reverse-proxy/#:~:text=Nginx%20HTTPS%20Reverse%20Proxy%20Overview,response%20back%20to%20the%20client.)
