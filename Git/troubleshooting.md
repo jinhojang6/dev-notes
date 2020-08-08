@@ -41,3 +41,5 @@ To change default timeout type
 git config --global credential.helper 'cache --timeout=3600'
 ```
 
+- Reference: https://stackoverflow.com/questions/30180751/avoid-re-entering-password-for-each-submodule
+
