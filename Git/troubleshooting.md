@@ -27,3 +27,17 @@ git branch --set-upstream-to=origin
 ```
 git remote add origin git@github.com:status-im/status-tutorials.git
 ```
+
+<br/>
+
+## Avoid re-entering password for each submodule
+
+To enable git cache with default timeout (15 min) you type
+```
+git config --global credential.helper cache
+```
+To change default timeout type
+```
+git config --global credential.helper 'cache --timeout=3600'
+```
+
