@@ -62,3 +62,10 @@ df -h
 
 <br/>
 
+## RDP
+Install XRDP
+```
+sudo apt-get install xrdp
+sudo apt-get install lubuntu-desktop
+```
+and open 3389 port
