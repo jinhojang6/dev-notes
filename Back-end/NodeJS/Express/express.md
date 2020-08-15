@@ -10,3 +10,11 @@ Express is a minimal and flexible Node.js web application framework that provide
 npm install express --save
 ```
 - https://expressjs.com/en/starter/installing.html
+
+<br/>
+
+## References
+
+- [TutorialsPoint](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)
+
+- [Guru99](https://www.guru99.com/node-js-express.html)
