@@ -51,3 +51,27 @@ onChange = (event) => {
 References:
 - [Javascript: Computed Property Names (ES6)](https://medium.com/front-end-weekly/javascript-object-creation-356e504173a8)
 - [Understanding this.setState({ [name]: value})](https://medium.com/@bretdoucette/understanding-this-setstate-name-value-a5ef7b4ea2b4)
+
+<br />
+
+## Double exclamation marks
+The !! (double bang) logical operators return a value’s truthy value. It converts `undefined` or `null` to `false`
+
+```
+const array = [1,2];
+!!array[0]; // true
+!!array[1]; // true
+!!array[2]; // false
+const obj = {
+  value: 5,
+  node: null
+};
+!!obj.value; // true
+!!obj.node;  // false
+```
+
+
+References:
+- [Javascript “Bang, Bang. I Shot You Down” - Use of Double Bangs (!!) in Javascript.](https://medium.com/better-programming/javascript-bang-bang-i-shot-you-down-use-of-double-bangs-in-javascript-7c9d94446054)
+- [JS Double Bang — or “The Not Operator Part !!”](https://medium.com/@edplatomail/js-double-bang-or-the-not-operator-part-40e55d089bf0)
+
