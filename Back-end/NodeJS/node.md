@@ -7,6 +7,15 @@ sudo apt install nodejs
 
 <br/>
 
+## Update to the latest stable version
+```
+sudo npm install -g n
+sudo n stable
+sudo n 10.16.0
+```
+
+<br/>
+
 ## Increasing the amount of inotify watchers
 
 You can set a new limit temporary with:
