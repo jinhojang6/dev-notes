@@ -109,6 +109,22 @@ ORDER BY
 
 <br/>
 
+## Drop a column
+```
+https://www.postgresqltutorial.com/postgresql-drop-column/#:~:text=To%20drop%20a%20column%20of,that%20involved%20the%20dropped%20column.
+
+ALTER TABLE table_name 
+DROP COLUMN column_name;
+```
+
+Example:
+```
+ALTER TABLE books 
+DROP COLUMN category_id;
+```
+
+<br/>
+
 ## Alter existing user's permission
 ```
 ALTER USER username WITH OPTION1 OPTION2 OPTION3;
