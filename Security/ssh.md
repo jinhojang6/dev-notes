@@ -25,3 +25,11 @@ sudo service ssh start
 # Check
 sudo netstat -anp | grep LISTEN | grep sshd
 ```
+
+<br/>
+
+## Permissions 0664 for 'key.pem' are too open. It is required that your private key files are NOT accessible by others.
+```
+sudo chmod 600 /path/to/my/key.pem
+```
+- Reference: https://stackabuse.com/how-to-fix-warning-unprotected-private-key-file-on-mac-and-linux/
