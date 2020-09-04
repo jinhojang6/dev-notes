@@ -1,11 +1,12 @@
 ## JWT
-JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.
+JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret or a public/private key pair.
 
 References
 - https://jwt.io/
 - https://blog.logrocket.com/jwt-authentication-best-practices/
 - https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/
 - https://en.wikipedia.org/wiki/JSON_Web_Token
+- https://dzone.com/articles/what-is-jwt-token
 
 <br/>
 
