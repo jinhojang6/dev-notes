@@ -8,6 +8,8 @@ Software development notes based on my hands-on experience
 - Backend: NodeJS, Django
 - Databases: PostgreSQL, MongoDB
 
+<br />
+
 # Pull Requests & Issues
 
 Feel free to submit a pull request to add or correct any content. Creating issues will be always welcome as well.
