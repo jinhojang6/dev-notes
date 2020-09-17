@@ -7,6 +7,7 @@ Software development notes based on my hands-on experience
 - Frontend: React, Apollo Client, NextJS
 - Backend: NodeJS, Django
 - Databases: PostgreSQL, MongoDB
+- Infra: Docker, AWS
 
 <br />
 
