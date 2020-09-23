@@ -5,6 +5,21 @@ Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Tran
 
 <br />
 
+## Extract crt, key, and rsa files from a pfx file
+
+```
+crt
+openssl pkcs12 -in {filename.pfx} -clcerts -nokeys -out {filename.crt}
+
+key
+openssl pkcs12 -in {filename.pfx} -nocerts -out {filename.key}
+
+rsa
+openssl pkcs12 -in {filename.pfx} -nocerts -nodes -out {filename.rsa}
+```
+
+<br/>
+
 ## Let's Encrypt
 A nonprofit Certificate Authority providing TLS certificates
 
