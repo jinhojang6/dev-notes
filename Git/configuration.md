@@ -3,6 +3,9 @@
 git config --global user.name "name"
 git config --global user.email "email"
 git config --global user.signingkey 3AA5C34371567BD2
+
+Global gitconfig location:
+$HOME/.gitconfig
 ```
 
 <br/>
