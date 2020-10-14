@@ -62,3 +62,18 @@ fi
 
 - Reference: [git auto-complete for *branches* at the command line?
 ](https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line)
+
+<br/>
+
+### Cherry-pick from a remote repo
+
+```
+git remote add other https://dev.azure.com/tw-ai/blackolive/_git/blackolive-legacy
+git fetch other
+git cherry-pick {commit hash value}
+```
+
+Deleting a remote repo
+```
+git remote remove other
+```
