@@ -22,3 +22,19 @@ delete a word : dw
 delete a line: dd
 ```
 
+<br />
+
+## vimdiff
+
+Checking diffs
+```
+vimdiff {file1} {file2}
+```
+
+Moving a cursor to the nearest next line : `]c`
+
+Moving a cursor to the previous line : `[c`
+
+Applying changes from left to right: `dp`
+
+Applying changes from right to left: `do`
