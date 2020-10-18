@@ -1,3 +1,17 @@
+## $eq
+
+Syntax: {field: {$eq: value} }
+
+The $eq operator matches documents where the value of a field equals the specified value.
+
+```
+db.inventory.find( { qty: { $eq: 20 } } )
+```
+
+- https://docs.mongodb.com/manual/reference/operator/query/eq/
+
+<br/>
+
 ## $ne
 
 Syntax: {field: {$ne: value} }
