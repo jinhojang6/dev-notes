@@ -74,6 +74,16 @@ psql test < dbname.bak
 
 <br/>
 
+## Dump and restore specific table
+
+```
+pg_dump -d <database_name> -t <table_name> > file.sql
+```
+
+- Reference: https://stackoverflow.com/questions/3682866/how-to-create-a-backup-of-a-single-table-in-a-postgres-database
+
+<br/>
+
 ## Security
 
 1. HOST_AUTH_METHOD
