@@ -160,3 +160,12 @@ WHERE
 ```
 
 - https://stackoverflow.com/questions/5108876/kill-a-postgresql-session-connection
+
+<br/>
+
+## Alter sequence start number
+```
+alter sequence {sequence} restart with {number};
+
+e.g., ALTER SEQUENCE engine_task_id_seq RESTART WITH 6000000;
+```
