@@ -52,6 +52,8 @@ postgres=# ALTER USER {username} PASSWORD 'myPassword';
 
 For example, a VM with 32 cores and 128 GB RAM can be
 ```
+// /var/lib/postgresql/data/postgresql.conf
+
 shared_buffers: 16GB
 temp_buffers: 2GB
 work_mem = 32MB
