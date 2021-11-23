@@ -49,17 +49,26 @@ sudo apt update && sudo apt install yarn
 (ref: https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
 # Docker
-sudo apt-get remove docker docker-engine docker.io
-sudo apt install docker.io
+
+https://docs.docker.com/engine/install/ubuntu/
 sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
+sudo usermod -aG docker $USER
+newgrp docker
+
+[old]
+sudo apt-get remove docker docker-engine docker.io
+sudo apt install docker.io
 
 # [ERROR] Got permission denied while trying to connect to the Docker daemon socket ~
 sudo usermod -aG docker $USER
 newgrp docker
 
 # Docker-compose
+https://docs.docker.com/compose/install/
+
+[old]
 sudo apt install curl
 sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
