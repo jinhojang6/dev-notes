@@ -22,7 +22,7 @@ git version
 
 # Node
 sudo yum install -y gcc-c++ make
-curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+curl -sL https://rpm.nodesource.com/setup_18.x | sudo -E bash -
 sudo yum install -y nodejs
 node -v
 npm -v
@@ -37,9 +37,13 @@ python3 --version
 ```
 
 Ubuntu
+
+# Key permission
+chmod 600 ~/.ssh/id_rsa
+
 ```
 # Node
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash
 sudo apt-get install -y nodejs
 
 # Yarn
@@ -49,7 +53,7 @@ sudo apt update && sudo apt install yarn
 (ref: https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
 # Docker
-https://docs.docker.com/engine/install/ubuntu/
+sudo apt  install docker.io
 
 # [ERROR] Got permission denied while trying to connect to the Docker daemon socket ~
 sudo usermod -aG docker $USER
@@ -58,7 +62,7 @@ newgrp docker
 # Docker-compose
 https://docs.docker.com/compose/install/
 
-sudo apt  install docker-compose
+sudo apt install docker-compose
 
 [old]
 sudo apt install curl
