@@ -1,4 +1,4 @@
-## Removed unused resources
+## Remove unused resources
 
 ```
 docker system prune
