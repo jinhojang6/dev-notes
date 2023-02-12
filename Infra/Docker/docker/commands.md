@@ -1,3 +1,16 @@
+## Removed unused resources
+
+```
+docker system prune
+```
+
+This command removes
+  - all stopped containers
+  - all networks not used by at least one container
+  - all dangling images
+  - all dangling build cache
+
+
 ## Remove all images
 
 ```
