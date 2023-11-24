@@ -78,6 +78,16 @@ docker-compose --version
 #root
 sudo su -
 enable root: https://tecadmin.net/how-to-enable-ssh-as-root-on-aws-ubuntu-instance/
+
+
+enable password sign-in
+
+sudo passwd ubuntu
+
+sudo vi /etc/ssh/sshd_config
+PasswordAuthentication yes
+
+sudo service sshd restart
 ```
 
 <br/>
