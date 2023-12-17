@@ -116,3 +116,15 @@ lsblk
 
 ## Changing instance type
 - https://www.cloudsqueeze.ai/how-to-change-an-aws-ec2-instance-type-a-step-by-step-guide/index.html
+
+<br/>
+
+## EBS
+
+```
+df -h
+lsblk
+sudo growpart /dev/nvme0n1 1
+lsblk
+sudo resize2fs /dev/nvme0n1
+```
