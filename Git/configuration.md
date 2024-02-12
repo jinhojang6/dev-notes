@@ -32,6 +32,11 @@ git config --global user.email "you@example.com"
 
 <br/>
 
+#@ Set Git to use the credential memory cache
+git config --global credential.helper cache
+
+<br/>
+
 
 ## SSH - how to solove permission denied error
 Create a ssh key
