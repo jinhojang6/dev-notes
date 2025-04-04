@@ -59,7 +59,7 @@ sudo apt-get install nodejs -y
 sudo npm install --global yarn
 
 # PM2
-npm install pm2 -g
+sudo npm install pm2 -g
 
 # Docker
 sudo apt install docker.io
