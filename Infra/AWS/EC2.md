@@ -43,6 +43,7 @@ chmod 600 ~/.ssh/id_rsa
 
 ```
 # Node
+# Node
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg
 sudo mkdir -p /etc/apt/keyrings
@@ -56,6 +57,9 @@ sudo apt-get install nodejs -y
 
 # Yarn
 sudo npm install --global yarn
+
+# PM2
+npm install pm2 -g
 
 # Docker
 sudo apt install docker.io
